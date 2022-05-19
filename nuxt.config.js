@@ -65,7 +65,6 @@ export default {
     'cookie-universal-nuxt',
     'vue-scrollto/nuxt',
     '@vue-storefront/middleware/nuxt',
-    '@nuxt/http',
   ],
   i18n: {
     currency: 'USD',
