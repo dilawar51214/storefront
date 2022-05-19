@@ -13,7 +13,7 @@
           <SfListItem>  
             <router-link to="/page/quality" exact>
               <SfMenuItem
-                class="sf-footer__menu-item"
+                class="sf-footer__menu-item"  
                 :label="$t('Quality in the details')"
               />
             </router-link>
