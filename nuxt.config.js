@@ -3,6 +3,10 @@ import { getRoutes } from './routes';
 import theme from './themeConfig';
 
 export default {
+  target: 'server',
+  serverMiddleware: {
+    '/api': '~/api'
+  },
   server: {
     port: 3001,
     host: 'localhost'
@@ -60,7 +64,8 @@ export default {
     }],
     'cookie-universal-nuxt',
     'vue-scrollto/nuxt',
-    '@vue-storefront/middleware/nuxt'
+    '@vue-storefront/middleware/nuxt',
+    '@nuxt/http',
   ],
   i18n: {
     currency: 'USD',
