@@ -8,7 +8,7 @@
                 class="sf-footer__menu-item"
                 :label="$t('Who we are')"
               />
-            </router-link>
+            </router-link>    
           </SfListItem>
           <SfListItem>
             <router-link to="/page/quality" exact>
